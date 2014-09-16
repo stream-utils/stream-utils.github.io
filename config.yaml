@@ -1,23 +1,33 @@
 # organization name, it's used to get github repo url, also in page title
-name: jshttp
+name: stream-utils
 
 # badge style, can be "flat", "flat-square" or ""
 # see http://shields.io/ for details
 badge_style: flat-square
 
 # meta headers in html
-title:       BadgeBoard
-description: project status at a glance
-keywords:    badgeboard, repo-utils
+title:       Stream Utilities
+description: node.js stream utilities
+keywords:
 
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
- - on-headers
- - on-finished
- - vary
- - mime-db:
-     node: 0.6   # you can override stuff from db.json here, i.e. node version
+ - stream-to-array
+ - destroy
+ - duplex-child-process
+ - streaming-json-stringify
+ - raw-body
+ - inflation
+ - save-to
+ - check-sum
+ - hash-stream
+ - passthrough-counter
+ - combine-streams
+ - chunkstream
+ - readall
+ - contentstream
+ - error-inject
 
 # list of maintainers, this won't be sorted
 maintainers:
@@ -39,18 +49,24 @@ maintainers:
    # add md5 of it here:
    avatar:  6e33cc0412b61cc01daac23c8989003c
 
- - name:    Jeremiah Senkpiel
-   github:  fishrock123
-   npm:     fishrock123
-   twitter: fishrock123
-   gittip:  Fishrock123
-   email:   fishrock123@rocketmail.com
+ - name:    Yiyu He
+   github:  dead-horse
+   npm:     dead_horse
+   twitter: deadhorse_busi
+   gittip:  dead-horse
+   email:   heyiyu.deadhorse@gmail.com
 
- - name:    Alex Kocharin
-   github:  rlidwka
-   npm:     rlidwka
-   twitter: rlidwka
-   email:   alex@kocharin.ru
+ - name:    Feng Yuan
+   github:  fengmk2
+   npm:     fengmk2
+   twitter: fengmk2
+   gittip:  fengmk2
+   email:   fengmk2@gmail.com
+
+ - name:    Jerome Wagner
+   github:  jeromew
+   npm:     jeromew
+   email:   jerome.wagner@m4x.org
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
