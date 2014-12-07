@@ -19,8 +19,6 @@ projects:
  - streaming-json-stringify
  - raw-body
  - inflation
- - save-to
- - check-sum
  - hash-stream
  - passthrough-counter
  - combine-streams

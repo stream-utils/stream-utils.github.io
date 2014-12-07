@@ -12,19 +12,18 @@
     "fengmk2": {
       "packages": 186
     },
+    "jeromew": {
+      "packages": 5
+    },
     "jongleberry": {
       "packages": 436
     }
   },
   "projects": {
-    "check-sum": {
-      "description": "Assert multiple checksums on a stream in parallel.",
-      "maintainer": "jongleberry",
+    "chunkstream": {
+      "description": "A ReadStream: emit data chunk by chunk.",
+      "maintainer": "fengmk2",
       "node": "0.10"
-    },
-    "chunk-stream": {
-      "description": "break up chunks into smaller chunks of size N on the way through",
-      "maintainer": "chrisdickinson"
     },
     "combine-streams": {
       "description": "Append streams and data into one mother stream",
@@ -34,7 +33,7 @@
     "contentstream": {
       "description": "Make a readable stream by input content, content could be `String`, `Buffer`, `Object`, `Number` and so on.",
       "maintainer": "fengmk2",
-      "node": "0.10"
+      "node": "0.8"
     },
     "destroy": {
       "description": "destroy a stream if possible",
@@ -73,11 +72,6 @@
     "readall": {
       "description": "readall `Stream` datas helper.",
       "maintainer": "fengmk2",
-      "node": "0.10"
-    },
-    "save-to": {
-      "description": "Save a stream to a file",
-      "maintainer": "jongleberry",
       "node": "0.10"
     },
     "stream-to-array": {
