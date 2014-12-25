@@ -64,6 +64,11 @@
       "maintainer": "jongleberry",
       "node": "0.10"
     },
+    "promise-transform-streams": {
+      "description": "Create and resolve a promise of streams",
+      "maintainer": "jongleberry",
+      "node": "0.8"
+    },
     "raw-body": {
       "description": "Get and validate the raw body of a readable stream.",
       "maintainer": "dougwilson",

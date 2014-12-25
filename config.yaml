@@ -26,6 +26,7 @@ projects:
  - readall
  - contentstream
  - error-inject
+ - promise-transform-streams
 
 # list of maintainers, this won't be sorted
 maintainers:
