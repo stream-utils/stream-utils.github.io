@@ -59,10 +59,20 @@
       "maintainer": "dougwilson",
       "node": "0.8"
     },
+    "multi-stream": {
+      "description": "Create a stream from multiple sources",
+      "maintainer": "jongleberry",
+      "node": "0.8"
+    },
     "passthrough-counter": {
       "description": "Get the total buffer length of a stream.",
       "maintainer": "jongleberry",
       "node": "0.10"
+    },
+    "promise-map-stream": {
+      "description": "Map transform streams with promises",
+      "maintainer": "jongleberry",
+      "node": "0.8"
     },
     "promise-transform-streams": {
       "description": "Create and resolve a promise of streams",
@@ -87,7 +97,12 @@
     "streaming-json-stringify": {
       "description": "Streaming JSON.stringify()",
       "maintainer": "jongleberry",
-      "node": "0.10"
+      "node": "0.8"
+    },
+    "unique-hash-stream": {
+      "description": "Remove duplicates from a stream based on a hashing function",
+      "maintainer": "jongleberry",
+      "node": "0.8"
     }
   }
 }

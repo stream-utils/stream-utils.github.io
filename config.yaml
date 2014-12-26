@@ -27,6 +27,9 @@ projects:
  - contentstream
  - error-inject
  - promise-transform-streams
+ - unique-hash-stream
+ - promise-map-stream
+ - multi-stream
 
 # list of maintainers, this won't be sorted
 maintainers:
