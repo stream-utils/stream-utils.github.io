@@ -40,6 +40,11 @@
       "maintainer": "jongleberry",
       "node": "0.8"
     },
+    "destroy-on-hwm": {
+      "description": "Destroy a writable stream if it hits the high water mark",
+      "maintainer": "jongleberry",
+      "node": "0.8"
+    },
     "duplex-child-process": {
       "description": "Spawn a child process as a duplex stream",
       "maintainer": "jeromew",

@@ -30,6 +30,7 @@ projects:
  - unique-hash-stream
  - promise-map-stream
  - multi-stream
+ - destroy-on-hwm
 
 # list of maintainers, this won't be sorted
 maintainers:
